@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <div class="header-container">
-        <h1 class="topnav-center">API</h1>
-        <nav>
-            <div><a href="index.html">Start side</a></div>
-            <p>Kode:</p>
-            <div><a href="API.html">API</a></div>
-            <div><a href="URL.html">Siste URL</a></div>
-            <br>
+    <div class="main-container">
+        <div class="header-container">
+            <h1 class="topnav-center">API</h1>
+            <nav>
+                <div class="box1">
+                    <div><a href="index.html">Start side</a></div>
+                    <button onclick="getLocation()">Buttongeolocation</button>
+                    <p id="demo"></p>
+                    <div><a href="URL.html">Siste URL</a></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="box2">
             <p>Fag:</p>
-            <div><a href="utvikling.html">Utvikling</a></div>            
+            <div><a href="utvikling.html">Utvikling</a></div>
             <div><a href="driftstøtte.html">Driftsstøtte</a></div>
             <div><a href="brukerstøtte.html">Brukerstøtte</a></div>
             <div><a href="yrkesfaglig fordypning vg2.html">Yrkesfaglig fordypning vg2</a></div>
-        </nav>
-    </div>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
