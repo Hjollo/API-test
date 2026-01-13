@@ -9,15 +9,20 @@
 </head>
 
 <body>
+    <div id="title"><h1>API</h1></div>
     <div class="main-container">
         <div class="header-container">
-            <h1 class="topnav-center">API</h1>
             <nav>
                 <div class="box1">
                     <div><a href="index.html">Start side</a></div>
                     <button onclick="getLocation()">Buttongeolocation</button>
                     <p id="demo"></p>
-                    <div><a href="URL.html">Siste URL</a></div>
+                    <button onclick="myFunction()">Go Back</button>
+                    <script>
+                        function myFunction() {
+                            window.history.back();
+                        }
+                    </script>
                 </div>
             </nav>
         </div>
